@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: arial;
+}
+
+nav {
+    height: 10vh;
+    background-color: #000;
+    line-height: 10vh;
+    color: white;
+}
+
+header {
+    height: 90vh;
+    background-color: brown;
+    line-height: 90vh;
+    color: white;
+
+}
+
+main {
+    height: 200vh;
+    background-color: lightblue;
+    line-height: 200vh;
+    color: white;
+}
+
+nav,
+header {
+    position: fixed;
+}
