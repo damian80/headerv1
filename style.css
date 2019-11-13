@@ -17,6 +17,9 @@ nav {
     background-color: #000;
     line-height: 10vh;
     color: white;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 header {
@@ -24,10 +27,16 @@ header {
     background-color: brown;
     line-height: 90vh;
     color: white;
+    margin-top: 10vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
 
 }
 
 main {
+    position: relative;
+    margin-top: 100vh;
     height: 200vh;
     background-color: lightblue;
     line-height: 200vh;
@@ -37,4 +46,6 @@ main {
 nav,
 header {
     position: fixed;
+    width: 100%;
+
 }
