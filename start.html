@@ -1,23 +1,40 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Najeżdzanie na header, nav przypięty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Arizonia|Monoton|Rock+Salt|Rye&display=swap" rel="stylesheet">
+    <title>Dan Almond</title>
 </head>
 
 <body>
-    <nav>
-        Navigation - 10% wysokości okna
+    <h1>dan almond</h1>
+    <nav class="zone blue sticky">
+        <ul class="main-nav">
+            <li><a class="one red active" class="red" href="#">Home</a></li>
+            <li><a class="one" href="#">Music</a>
+                <ul class="dropdown">
+                    <li><a href="#">composer</a></li>
+                    <li><a href="#">songwriter</a></li>
+                    <li><a href="#">performer</a></li>
+                </ul>
+            </li>
+
+
+            <li><a class="last one" href="index3.html">Contact</a></li>
+
+        </ul>
+
     </nav>
-    <header>
-        Header - 90% wysokości okna
+
+    <header class="container zone">
+        <img class="cover" src="dan.jpg" alt="dan" width="290">
     </header>
-    <main>
-        Main - 100% wysokości okna
-    </main>
+    <footer>&copy;2019 Sites made with Love</footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
