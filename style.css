@@ -154,9 +154,23 @@ li {
   text-decoration: none;
   transition-duration: 0.5s;
 }
+.dropdown li {
+  font-size: 1rem;
+  /* padding: 0 -13px; */
+  border-bottom: solid rgb(95, 10, 10) 1px;
+  /* margin: 1px; */
+  /* text-align: right; */
+  /* float: left; */
+}
 .dropdown a {
   color: white;
-  font-size: 1rem;
-  padding: 3px;
-  border-bottom: solid red 5px;
+  /* padding: 0 22px; */
+  /* font-size: 3em; */
+  /* text-align: center; */
+  /* text-decoration: none;
+  display: flex;
+  align-items: left;
+  justify-content: left; */
+
+  /* padding-right: -100px; */
 }
