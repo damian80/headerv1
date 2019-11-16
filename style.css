@@ -94,9 +94,7 @@ footer {
   cursor: pointer;
 }
 
-/* .main-nav li:last-child {
-    border-right: none;
-} */
+
 
 .last:last-child {
   border-right: none;
@@ -155,10 +153,7 @@ a {
 
 li {
   color: #fff;
-  /* background: darkorange; */
   display: block;
-  /* float: left; */
-  /* padding: 1rem; */
   position: relative;
   text-decoration: none;
   transition-duration: 0.5s;
@@ -166,7 +161,6 @@ li {
 
 .dropdown li {
   font-size: 1rem;
-
   border-bottom: solid rgb(95, 10, 10) 2px;
   padding-bottom: 10px;
   text-align: center;
@@ -175,30 +169,72 @@ li {
 
 .dropdown a {
   color: white;
-
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   padding: 15px;
-  /* padding-bottom: 5px; */
 
-  /* padding-right: -100px; */
 }
 
 hr {
   margin-top: 40px;
 }
 
-.container span {
+.wrapper {
   margin-top: 80px;
+  margin-bottom: 30px;
   text-align: center;
   font-size: 1.3rem;
-
 }
 
 .composer {
-  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.composer iframe {
+  width: 350px;
+  height: 500px;
+  margin: 10px;
+  transition: all 1s;
+}
 
+.composer iframe:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 
+.click {
+  outline: none;
+  background-color: rgba(61, 155, 233, 1);
+  border: 1px solid rgba(61, 155, 233, 1);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 35px;
+  padding: 5px 40px;
+  font-size: 15px;
+  transition: all 1s;
+
+}
+
+.click a {
+  text-decoration: none;
+  color: white;
+}
+
+.click:hover {
+  cursor: pointer;
+  background-color: rgb(224, 97, 24);
+  border: 1px solid rgb(224, 97, 24);
+  transform: scale(1.1);
+}
+
+button {
+  display: block;
+  margin: 18px auto;
+
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
